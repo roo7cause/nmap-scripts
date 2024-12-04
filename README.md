@@ -1,8 +1,8 @@
-# egress-check-range.nse
+# Egress Check NSE Script
 
 ## Purpose
 
-The `egress-check-range.nse` script tests egress filtering by attempting to establish outbound connections from a target machine to an external server over a specified range of ports. This script helps network administrators and security analysts to:
+The `egress-check.nse` script tests egress filtering by attempting to establish outbound connections from a target machine to an external server over a specified range of ports. This script helps network administrators and security analysts to:
 
 - Identify which outbound ports are permitted by firewalls or network security policies.
 - Validate egress filtering rules.
@@ -22,7 +22,7 @@ The `egress-check-range.nse` script tests egress filtering by attempting to esta
 
 ### Command Syntax
 ```
-nmap <target-ip> --script egress-check-range --script-args "egress-server=<server-ip>,egress-ports=<start-end>"
+nmap <target-ip> --script egress-check --script-args "egress-server=<server-ip>,egress-ports=<start-<end>"
 ```
 
 ## Example Output
