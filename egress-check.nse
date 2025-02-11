@@ -1,5 +1,5 @@
 -- Script name: egress-check.nse
--- Author: David Kasabji
+-- Author: David / Netrunner 
 -- Description: Tests egress filtering by attempting to establish connections to an external server.
 -- License: Same as Nmap (see https://nmap.org/book/man-legal.html)
 -- Categories: discovery, external
